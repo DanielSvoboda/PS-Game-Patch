@@ -77,4 +77,14 @@
             <Line Type="bytes" Address="0x01390090" Value="31c0c3"/>
         </PatchList>
     </Metadata>
+    <Metadata Title="Shadow of the Colossus"
+              Name="shadowDemoMod"
+              Author="DanielSvoboda"
+              PatchVer="1.0"
+              AppVer="01.01"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="0x8c938d" Value="c683c000000001"/>
+        </PatchList>
+    </Metadata>
 </Patch>
