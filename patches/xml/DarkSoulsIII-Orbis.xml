@@ -161,4 +161,15 @@
             <Line Type="bytes" Address="0x05394187" Value="e92bf5edfb"/>
         </PatchList>
     </Metadata>
+	<Metadata Title="Dark Souls III"
+              Name="Player No Dead"
+              Note="If health drops to 0, he stays alive"
+              Author="DanielSvoboda"
+              PatchVer="1.0"
+              AppVer="01.15"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="04ed0cb0" Value="01"/>
+        </PatchList>
+    </Metadata>
 </Patch>
